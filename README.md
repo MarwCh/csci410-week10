@@ -1,6 +1,16 @@
 # week10
 
-A new Flutter project.
+A new Flutter project that connects to DB using REST API cloud service.
+You can create your cloud DB using one of the following free web hosts:
+- https://www.awardspace.com
+- https://www.infinityfree.com
+- https://googiehost.com
+- etc.
+
+Please also note that you need to perform the below steps so that the application works on chrome emulator:
+- Go to flutter\bin\cache and remove flutter_tools.stamp file
+- Go to flutter\packages\flutter_tools\lib\src\web open file chrome.dart and edit it Add '--disable-web-security' next to '--disable-extensions' line
+This is only necessary if you are using chrome as an emulator, otherwise it will give a connection error.
 
 ## Getting Started
 
