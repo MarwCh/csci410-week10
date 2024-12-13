@@ -1,6 +1,6 @@
 # week10
 
-A new Flutter project that connects to DB using REST API cloud service.
+A new Flutter project that connects to DB using HTTP REST service.
 You can create your cloud DB using one of the following free web hosts:
 - https://www.awardspace.com
 - https://www.infinityfree.com
